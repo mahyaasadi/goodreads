@@ -84,11 +84,6 @@ const Book = () => {
           "The central ideas are presented in the form of a young woman's internal monologue, in which she confronts her own fears, doubts, misgivings and suppressed anger while pretending to converse with her unborn child.",
         rating: 4,
       },
-      {
-        reviewerInfo: rozi,
-        reviewText: "Nope.",
-        rating: 1,
-      },
     ],
     3: [
       {
@@ -220,12 +215,6 @@ const Book = () => {
         rating: 5,
       },
       {
-        reviewerInfo: saba,
-        reviewText:
-          "The central ideas are presented in the form of a young woman's internal monologue, in which she confronts her own fears, doubts, misgivings and suppressed anger while pretending to converse with her unborn child.",
-        rating: 4,
-      },
-      {
         reviewerInfo: parmida,
         reviewText: "Nope.",
         rating: 1,
@@ -258,12 +247,6 @@ const Book = () => {
     ],
     12: [
       {
-        reviewerInfo: mahya,
-        reviewText:
-          "Oriana Fallaci writes with a poetic flair, fearlessly lending her voice to many questions which nearly all of us (specially women) battle with in solitude over a lifetime, but are often unable to articulate these ideas in front of an audience in fear of backlash by a predominantly conservative society. The central ideas are presented in the form of a young woman's internal monologue, in which she confronts her own fears, doubts, misgivings and suppressed anger while pretending to converse with her unborn child.",
-        rating: 3,
-      },
-      {
         reviewerInfo: maede,
         reviewText:
           "Oriana Fallaci writes with a poetic flair, fearlessly lending her voice to many questions which nearly all of us (specially women) battle with in solitude over a lifetime, but are often unable to articulate these ideas in front of an audience in fear of backlash by a predominantly conservative society. The central ideas are presented in the form of a young woman's internal monologue, in which she confronts her own fears, doubts, misgivings and suppressed anger while pretending to converse with her unborn child.",
@@ -286,9 +269,9 @@ const Book = () => {
   const { id } = useParams();
 
   return (
-    <div class="flex justify-center book-page">
-      <div class="w-1/2">
-        <div class="pt-24">
+    <div className="flex justify-center book-page">
+      <div className="w-1/2">
+        <div className="pt-24">
           <BookDescription book={books[id]} />
         </div>
         <div>

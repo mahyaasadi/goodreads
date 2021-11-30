@@ -10,7 +10,6 @@ export const mahya = {
   activity: "Joined in 2019, last active this month",
   about: "Blah Blah Blah",
 };
-
 export const maede = {
   id: 2,
   name: "Maede",
@@ -23,7 +22,6 @@ export const maede = {
   activity: "Joined in 2015, last active this month",
   about: "Heyyyyy!",
 };
-
 export const sina = {
   id: 3,
   name: "Sina",

@@ -3,27 +3,31 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import User from "./view/pages/user";
 import Book from "./view/pages/book";
 import Home from "./view/pages/home";
+import Search from "./view/pages/search";
 import "./App.scss";
 
 function App() {
   return (
     <Router>
-      <div class="home-page h-full">
-        <nav class="navbar h-18 w-full fixed">
-          <ul class="flex justify-start p-2 ml-8">
-            <li class="p-2">
+      <div className="home-page h-full">
+        <nav className="navbar h-18 w-full fixed z-50">
+          <ul className="flex justify-start p-2 ml-8">
+            <li className="p-2">
               <Link to="/">Home</Link>
             </li>
-            <li class="p-2 ml-3">
-              <Link to="/user">User</Link>
+            <li className="p-2 ml-3">
+              <Link to="/user/1">User</Link>
             </li>
-            <li class="p-2 ml-3">
-              <Link to={"/book"}>Book</Link>
+            <li className="p-2 ml-3">
+              <Link to={"/book/search"}>Books</Link>
             </li>
           </ul>
         </nav>
         <div>
           <Switch>
+            <Route path="/book/search">
+              <Search />
+            </Route>
             <Route path="/book/:id">
               <Book />
             </Route>

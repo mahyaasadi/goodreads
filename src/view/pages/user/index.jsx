@@ -446,8 +446,8 @@ const User = () => {
   const { id } = useParams();
 
   return (
-    <div class="flex w-full justify-center pt-24">
-      <div class="w-2/5 mr-16">
+    <div className="flex w-full justify-center pt-24">
+      <div className="w-2/5 mr-16">
         <div>
           <UserInfo user={user[id]} />
         </div>
@@ -459,7 +459,7 @@ const User = () => {
         </div>
       </div>
 
-      <div class="w-1/5">
+      <div className="w-1/5">
         <FriendsList user={user[id]} friends={friends[id]} />
       </div>
     </div>
