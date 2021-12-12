@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 const SearchBox = ({ searchInput, setSearchInput }) => {
   return (
     <div className="w-3/5 h-12 border border-gray-300 rounded-lg shadow-md">

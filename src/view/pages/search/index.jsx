@@ -33,11 +33,11 @@ const categoriesList = [
   },
   {
     id: 4,
-    categoryType: "horror",
+    categoryType: "young-adult",
   },
   {
     id: 5,
-    categoryType: "non-fiction",
+    categoryType: "graphic novel",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const categoriesList = [
   },
   {
     id: 7,
-    categoryType: "historical fiction",
+    categoryType: "classic",
   },
 ];
 
