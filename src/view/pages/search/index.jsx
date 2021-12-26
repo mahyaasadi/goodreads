@@ -70,7 +70,6 @@ const Search = () => {
     useState(bookSuggestions);
 
   const filterBooks = (books) => {
-    // include
     return books.filter((book) => {
       return book.title.toLowerCase().includes(searchInput);
     });

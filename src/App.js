@@ -4,6 +4,7 @@ import User from "./view/pages/user";
 import Book from "./view/pages/book";
 import Home from "./view/pages/home";
 import Search from "./view/pages/search";
+import About from "./view/pages/about";
 import "./App.scss";
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
             <li className="p-2 ml-3">
               <Link to={"/book/search"}>Books</Link>
             </li>
+            <li className="p-2 ml-3">
+              <Link to={"/about"}>About</Link>
+            </li>
           </ul>
         </nav>
         <div>
@@ -33,6 +37,9 @@ function App() {
             </Route>
             <Route path="/user/:id">
               <User />
+            </Route>
+            <Route path="/about">
+              <About />
             </Route>
             <Route path="/">
               <Home />
