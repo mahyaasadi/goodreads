@@ -288,10 +288,9 @@ const About = () => {
           </p>
         </div>
 
-        {/* founders infos */}
         <div className="py-16 flex items-center justify-center">
-          <div className="w-3/4 flex flex-wrap justify-center">
-            <div className="flex flex-col items-center">
+          <div className="w-3/4 flex flex-wrap justify-center gap-5">
+            <div className="w-40 flex flex-col items-center">
               <img
                 src="https://static.opensea.io/about/investor-mark.cuban.png"
                 alt="proPics"
@@ -301,7 +300,7 @@ const About = () => {
                 <p className="text-gray-500">Entrepreneur & Investor</p>
               </div>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="w-40 flex flex-col items-center">
               <img
                 src="https://static.opensea.io/about/investor-3lau.png"
                 alt="proPics"
@@ -311,7 +310,7 @@ const About = () => {
                 <p className="text-gray-500">American DJ & Producer</p>
               </div>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="w-40 flex flex-col items-center">
               <img
                 src="https://static.opensea.io/about/investor-tim.ferris.png"
                 alt="proPics"
@@ -321,7 +320,7 @@ const About = () => {
                 <p className="text-gray-500">Entrepreneur & Author</p>
               </div>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="w-40 flex flex-col items-center">
               <img
                 src="https://static.opensea.io/about/investor-dylan.field.png"
                 alt="proPics"
@@ -331,7 +330,7 @@ const About = () => {
                 <p className="text-gray-500">CEO & Co-founder of Figma</p>
               </div>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="w-40 flex flex-col items-center">
               <img
                 src="https://static.opensea.io/about/investor-ben.silberman.png"
                 alt="proPics"
@@ -343,7 +342,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="w-40 flex flex-col items-center">
               <img
                 src="https://static.opensea.io/about/investor-alex.ohanian.png"
                 alt="proPics"
@@ -353,7 +352,7 @@ const About = () => {
                 <p className="text-gray-500">Entrepreneur & Investor</p>
               </div>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="w-40 flex flex-col items-center">
               <img
                 src="https://static.opensea.io/about/investor-balaji.srinivisan.png"
                 alt="proPics"
@@ -363,7 +362,7 @@ const About = () => {
                 <p className="text-gray-500">American DJ & Producer</p>
               </div>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="w-40 flex flex-col items-center">
               <img
                 src="https://static.opensea.io/about/investor-belinda.johnson.png"
                 alt="proPics"
@@ -373,7 +372,7 @@ const About = () => {
                 <p className="text-gray-500">Entrepreneur & Author</p>
               </div>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="w-40 flex flex-col items-center">
               <img
                 src="https://static.opensea.io/about/investor-naval.ravikant.png"
                 alt="proPics"
@@ -383,7 +382,7 @@ const About = () => {
                 <p className="text-gray-500">CEO & Co-founder of Figma</p>
               </div>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="w-40 flex flex-col items-center">
               <img
                 src="https://static.opensea.io/about/investor-justin.kan.png"
                 alt="proPics"
@@ -395,7 +394,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="w-40 flex flex-col items-center">
               <img
                 src="https://static.opensea.io/about/investor-avichal.garg.png"
                 alt="proPics"
@@ -405,7 +404,7 @@ const About = () => {
                 <p className="text-gray-500">Entrepreneur & Investor</p>
               </div>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="w-40 flex flex-col items-center">
               <img
                 src="https://static.opensea.io/about/investor-linda.xie.png"
                 alt="proPics"
@@ -415,7 +414,7 @@ const About = () => {
                 <p className="text-gray-500">American DJ & Producer</p>
               </div>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="w-40 flex flex-col items-center">
               <img
                 src="https://static.opensea.io/about/investor-kevin.durant.png"
                 alt="proPics"
@@ -425,7 +424,7 @@ const About = () => {
                 <p className="text-gray-500">Entrepreneur & Author</p>
               </div>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="w-40 flex flex-col items-center">
               <img
                 src="https://static.opensea.io/about/investor-ashton.kutcher.png"
                 alt="proPics"
@@ -435,7 +434,7 @@ const About = () => {
                 <p className="text-gray-500">CEO & Co-founder of Figma</p>
               </div>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="w-40 flex flex-col items-center">
               <img
                 src="https://static.opensea.io/about/investor-tobie.lutke%20.png"
                 alt="proPics"
@@ -551,12 +550,12 @@ const About = () => {
             <div className="pt-6 flex xl:justify-start sm:justify-center">
               <div className="mr-3">
                 <input
-                  className="border rounded-lg text-gray-800 py-3 px-16"
+                  className="border rounded-lg text-gray-800"
                   placeholder="Your email adress"
                 ></input>
               </div>
 
-              <button className="rounded-lg bg-blue-500 font-medium hover:shadow-xl py-2 px-6">
+              <button className="w-1/3 rounded-lg bg-blue-500 font-medium hover:shadow-xl">
                 Sign up
               </button>
             </div>
@@ -610,7 +609,7 @@ const About = () => {
 
         {/* footer-middlePart */}
         <div className="xl:flex xl:justify-between border-b border-gray-400 py-12">
-          <div className="flex flex-col items-center text-center w-full pb-8 xl:text-left xl:w-1/4 xl:items-start">
+          <div className="flex flex-col items-center text-center w-full pb-8 xl:text-left xl:w-1/5 xl:items-start">
             <img
               src="https://opensea.io/static/images/logos/opensea-white.svg"
               alt="logo"
@@ -624,7 +623,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="flex flex-wrap pt-8 w-full justify-center xl:w-2/4 gap-12">
+          <div className="flex flex-wrap pt-8 w-full justify-center xl:w-3/5 gap-12">
             <div>
               <p className="text-xl font-medium pb-2">Marketplace</p>
               <div className="font-light text-sm leading-9">
@@ -657,34 +656,36 @@ const About = () => {
               </div>
             </div>
 
-            <div>
-              <p className="text-xl font-medium pb-1">Resources</p>
-              <div className="font-light text-sm leading-9">
-                <p>Help Center</p>
-                <p>Platform Status</p>
-                <p>Partners</p>
-                <p>Gas-Free Marketplace</p>
-                <p>Blog</p>
-                <p>Docs</p>
-                <p>Newsletter</p>
+            <div className="flex flex-wrap gap-10">
+              <div>
+                <p className="text-xl font-medium pb-1">Resources</p>
+                <div className="font-light text-sm leading-9">
+                  <p>Help Center</p>
+                  <p>Platform Status</p>
+                  <p>Partners</p>
+                  <p>Gas-Free Marketplace</p>
+                  <p>Blog</p>
+                  <p>Docs</p>
+                  <p>Newsletter</p>
+                </div>
               </div>
-            </div>
 
-            <div>
-              <p className="text-xl font-medium pb-1">Company</p>
-              <div className="font-light text-sm leading-9">
-                <p>About</p>
-                <p>Careers</p>
+              <div>
+                <p className="text-xl font-medium pb-1">Company</p>
+                <div className="font-light text-sm leading-9">
+                  <p>About</p>
+                  <p>Careers</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
         {/* footer-lastSection */}
-        <div className="flex text-xs font-light py-5">
-          <div className="w-1/2">© 2018 - 2021 Ozone Networks, Inc</div>
-          <div className="flex justify-end w-1/2">
-            <p className="mr-4">Privacy Policy</p>
+        <div className="flex justify-between text-xs font-light py-5">
+          <div className="w-1/3">© 2018 - 2021 Ozone Networks, Inc</div>
+          <div className="flex justify-end gap-2 text-center w-1/3">
+            <p className="">Privacy Policy</p>
             <p className="">Terms of Service</p>
           </div>
         </div>
